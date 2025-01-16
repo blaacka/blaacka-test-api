@@ -6,6 +6,7 @@ const countries = [
   { code: 'FR', name: 'France' },
   { code: 'DE', name: 'Germany' },
   { code: 'IT', name: 'Italy' },
+  { code: 'ITxx', name: 'Italyxxxx' },
   // Ajoutez d'autres pays ici
 ];
 

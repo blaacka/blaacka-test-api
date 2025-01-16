@@ -10,8 +10,19 @@ const countries = [
   // Ajoutez d'autres pays ici
 ];
 
+const dangers = [
+  { code: 'FR', name: 'DANGER AAAA' },
+  { code: 'DE', name: 'DANGER BBBB' },
+  { code: 'IT',  name: 'DANGER CCCC' },
+  { code: 'ITxx', name: 'DANGER DDDD' },
+  // Ajoutez d'autres pays ici
+];
+
 app.get('/countries', (req, res) => {
   res.json(countries);
+});
+app.get('/dangers', (req, res) => {
+  res.json(dangers);
 });
 
 app.listen(port, () => {

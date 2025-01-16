@@ -25,6 +25,20 @@ app.get('/dangers', (req, res) => {
   res.json(dangers);
 });
 
+app.get('/', (req, res) => {
+  res.send(`
+    <html>
+      <head>
+        <title>Bienvenue</title>
+      </head>
+      <body>
+        <h1>Bienvenue sur notre API</h1>
+        <p>Utilisez l'endpoint <a href="/countries">/countries</a> pour obtenir la liste des pays.</p>
+      </body>
+    </html>
+  `);
+});
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });

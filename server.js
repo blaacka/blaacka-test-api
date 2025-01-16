@@ -3,10 +3,10 @@ const app = express();
 const port = 3000;
 
 const countries = [
-  { code: 'FR', name: 'France' },
-  { code: 'DE', name: 'Germany' },
-  { code: 'IT', name: 'Italy' },
-  { code: 'ITxx', name: 'Italyxxxx' },
+  { code: 'FR', name: 'France SIRLRIA NG' },
+  { code: 'DE', name: 'Germany SIRLRIA NG' },
+  { code: 'IT', name: 'Italy SIRLRIA NG' },
+  { code: 'ITxx', name: 'Norvege SIRLRIA NG' },
   // Ajoutez d'autres pays ici
 ];
 

@@ -3,10 +3,14 @@ const app = express();
 const port = 2000;
 
 const countries = [
-  { code: 'FR', name: 'France SIRLRIA NG' },
-  { code: 'DE', name: 'Germany SIRLRIA NG' },
-  { code: 'IT', name: 'Italy SIRLRIA NG' },
-  { code: 'DD', name: 'Norvege SIRLRIA NG xxxxxxx' },
+  { code: 'FR', name: 'CLASSE DANGER FR' },
+  { code: 'DE', name: 'CLASSE DANGER BE' },
+  { code: 'IT', name: 'CLASSE DANGER IT' },
+  { code: 'CA', name: 'CLASSE DANGER CA' },
+   { code: 'FR1', name: 'CLASSE DANGER FR1' },
+  { code: 'DE1', name: 'CLASSE DANGER BE1' },
+  { code: 'IT1', name: 'CLASSE DANGER IT1' },
+  { code: 'CA1', name: 'CLASSE DANGER CA1' },
   // Ajoutez d'autres pays ici
 ];
 
